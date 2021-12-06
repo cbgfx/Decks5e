@@ -55,9 +55,6 @@ extension Deck {
 		
 		managedObject.setValue(deckName, forKey: CodingKeys.deckName.rawValue)
 		
-		if let cardArray = cards {
-			managedObject.setValue(NSSet(array: cardArray), forKey: CodingKeys.cards.rawValue)
-		}
 		
 		return managedObject
 	}

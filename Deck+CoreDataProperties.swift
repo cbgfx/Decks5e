@@ -17,7 +17,6 @@ extension Deck {
     }
 
     @NSManaged public var deckName: String?
-    @NSManaged public var cards: Card?
 
 }
 

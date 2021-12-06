@@ -20,8 +20,7 @@ public class Card: NSManagedObject, Codable {
 		case detail
 		case drawn
 		case pic
-		//Relationships
-		case masterDeck
+		case deckName
 	}
 	
 	required public convenience init(from decoder: Decoder) throws {
@@ -41,7 +40,7 @@ public class Card: NSManagedObject, Codable {
 			self.drawn = try container.decode(Bool.self, forKey: .drawn)
 			self.pic = try container.decode(Data.self, forKey: .pic)
 
-			self.masterDeck = try container.decode(Deck.self, forKey: .masterDeck)
+			self.deckName = try container.decode(String.self, forKey: .deckName)
 
 			
 		} catch let errror as NSError {
@@ -57,7 +56,7 @@ public class Card: NSManagedObject, Codable {
 		try container.encode(drawn, forKey: .drawn)
 		try container.encode(pic, forKey: .pic)
 		
-		try container.encode(masterDeck, forKey: .masterDeck)
+		try container.encode(deckName, forKey: .deckName)
 
 	}
 }
@@ -66,7 +65,7 @@ public class Card: NSManagedObject, Codable {
 
 extension Card {
 
-	class func initialize(pic: Data? = nil, title: String = "", detail: String = "", drawn: Bool = false, masterDeck: Deck?) -> Card {
+	class func initialize(pic: Data? = nil, title: String = "", detail: String = "", drawn: Bool = false, deckName: String) -> Card {
 
 		let context = DBManager.getCoreDataContext()
 
@@ -79,7 +78,7 @@ extension Card {
 		managedObject.setValue(detail, forKey: "detail")
 		managedObject.setValue(drawn, forKey: "drawn")
 		managedObject.setValue(pic, forKey: "pic")
-		managedObject.setValue(masterDeck, forKey: "masterDeck")
+		managedObject.setValue(deckName, forKey: "deckName")
 
 
 		return managedObject

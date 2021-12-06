@@ -20,6 +20,10 @@ extension Card {
     @NSManaged public var detail: String?
     @NSManaged public var drawn: Bool
     @NSManaged public var pic: Data?
-    @NSManaged public var masterDeck: Deck?
+    @NSManaged public var deckName: String?
+
+}
+
+extension Card : Identifiable {
 
 }
