@@ -19,6 +19,8 @@
 		C3E802B8275DD283007C5FA5 /* Deck+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802B6275DD283007C5FA5 /* Deck+CoreDataProperties.swift */; };
 		C3E802BF275DDB4A007C5FA5 /* Card+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802BD275DDB4A007C5FA5 /* Card+CoreDataClass.swift */; };
 		C3E802C0275DDB4A007C5FA5 /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802BE275DDB4A007C5FA5 /* Card+CoreDataProperties.swift */; };
+		C3E802C7275DDE25007C5FA5 /* SeedCheck+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802C5275DDE25007C5FA5 /* SeedCheck+CoreDataClass.swift */; };
+		C3E802C8275DDE25007C5FA5 /* SeedCheck+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802C6275DDE25007C5FA5 /* SeedCheck+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		C3E802B6275DD283007C5FA5 /* Deck+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deck+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		C3E802BD275DDB4A007C5FA5 /* Card+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		C3E802BE275DDB4A007C5FA5 /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		C3E802C5275DDE25007C5FA5 /* SeedCheck+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SeedCheck+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		C3E802C6275DDE25007C5FA5 /* SeedCheck+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SeedCheck+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		C3E80294275DCC53007C5FA5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C3E802C5275DDE25007C5FA5 /* SeedCheck+CoreDataClass.swift */,
+				C3E802C6275DDE25007C5FA5 /* SeedCheck+CoreDataProperties.swift */,
 				C3E802BD275DDB4A007C5FA5 /* Card+CoreDataClass.swift */,
 				C3E802BE275DDB4A007C5FA5 /* Card+CoreDataProperties.swift */,
 				C3E802B5275DD283007C5FA5 /* Deck+CoreDataClass.swift */,
@@ -189,8 +195,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E80293275DCA2A007C5FA5 /* DBManager.swift in Sources */,
+				C3E802C7275DDE25007C5FA5 /* SeedCheck+CoreDataClass.swift in Sources */,
 				C3E802BF275DDB4A007C5FA5 /* Card+CoreDataClass.swift in Sources */,
 				C3E31E02275DC4A8002F395E /* Decks5e.xcdatamodeld in Sources */,
+				C3E802C8275DDE25007C5FA5 /* SeedCheck+CoreDataProperties.swift in Sources */,
 				C3E31DFC275DC4A8002F395E /* DeckMain.swift in Sources */,
 				C3E31DF8275DC4A8002F395E /* AppDelegate.swift in Sources */,
 				C3E802B7275DD283007C5FA5 /* Deck+CoreDataClass.swift in Sources */,
