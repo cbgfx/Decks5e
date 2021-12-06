@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		C3E31DF8275DC4A8002F395E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E31DF7275DC4A8002F395E /* AppDelegate.swift */; };
 		C3E31DFA275DC4A8002F395E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E31DF9275DC4A8002F395E /* SceneDelegate.swift */; };
-		C3E31DFC275DC4A8002F395E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E31DFB275DC4A8002F395E /* ViewController.swift */; };
+		C3E31DFC275DC4A8002F395E /* DeckMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E31DFB275DC4A8002F395E /* DeckMain.swift */; };
 		C3E31DFF275DC4A8002F395E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E31DFD275DC4A8002F395E /* Main.storyboard */; };
 		C3E31E02275DC4A8002F395E /* Decks5e.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3E31E00275DC4A8002F395E /* Decks5e.xcdatamodeld */; };
 		C3E31E04275DC4AA002F395E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E31E03275DC4AA002F395E /* Assets.xcassets */; };
 		C3E31E07275DC4AA002F395E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E31E05275DC4AA002F395E /* LaunchScreen.storyboard */; };
+		C3E80293275DCA2A007C5FA5 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E80292275DCA2A007C5FA5 /* DBManager.swift */; };
+		C3E802B1275DCFC6007C5FA5 /* Deck+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802AD275DCFC6007C5FA5 /* Deck+CoreDataClass.swift */; };
+		C3E802B2275DCFC6007C5FA5 /* Deck+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802AE275DCFC6007C5FA5 /* Deck+CoreDataProperties.swift */; };
+		C3E802B3275DCFC6007C5FA5 /* Card+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802AF275DCFC6007C5FA5 /* Card+CoreDataClass.swift */; };
+		C3E802B4275DCFC6007C5FA5 /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802B0275DCFC6007C5FA5 /* Card+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3E31DF4275DC4A8002F395E /* Decks5e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decks5e.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E31DF7275DC4A8002F395E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E31DF9275DC4A8002F395E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3E31DFB275DC4A8002F395E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3E31DFB275DC4A8002F395E /* DeckMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckMain.swift; sourceTree = "<group>"; };
 		C3E31DFE275DC4A8002F395E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3E31E01275DC4A8002F395E /* Decks5e.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Decks5e.xcdatamodel; sourceTree = "<group>"; };
 		C3E31E03275DC4AA002F395E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E31E06275DC4AA002F395E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E31E08275DC4AA002F395E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E80292275DCA2A007C5FA5 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		C3E802AD275DCFC6007C5FA5 /* Deck+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deck+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		C3E802AE275DCFC6007C5FA5 /* Deck+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deck+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		C3E802AF275DCFC6007C5FA5 /* Card+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		C3E802B0275DCFC6007C5FA5 /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,12 @@
 		C3E31DF6275DC4A8002F395E /* Decks5e */ = {
 			isa = PBXGroup;
 			children = (
-				C3E31E0F275DC4C5002F395E /* Storyboards */,
-				C3E31E0E275DC4BD002F395E /* ViewControllers */,
 				C3E31DF7275DC4A8002F395E /* AppDelegate.swift */,
 				C3E31DF9275DC4A8002F395E /* SceneDelegate.swift */,
-				C3E31DFB275DC4A8002F395E /* ViewController.swift */,
+				C3E80294275DCC53007C5FA5 /* Models */,
+				C3E80291275DCA0B007C5FA5 /* Managers */,
+				C3E31E0F275DC4C5002F395E /* Storyboards */,
+				C3E31E0E275DC4BD002F395E /* ViewControllers */,
 				C3E31E03275DC4AA002F395E /* Assets.xcassets */,
 				C3E31E08275DC4AA002F395E /* Info.plist */,
 				C3E31E00275DC4A8002F395E /* Decks5e.xcdatamodeld */,
@@ -73,6 +84,7 @@
 		C3E31E0E275DC4BD002F395E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C3E31DFB275DC4A8002F395E /* DeckMain.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -84,6 +96,25 @@
 				C3E31E05275DC4AA002F395E /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C3E80291275DCA0B007C5FA5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C3E80292275DCA2A007C5FA5 /* DBManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		C3E80294275DCC53007C5FA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3E802AD275DCFC6007C5FA5 /* Deck+CoreDataClass.swift */,
+				C3E802AE275DCFC6007C5FA5 /* Deck+CoreDataProperties.swift */,
+				C3E802AF275DCFC6007C5FA5 /* Card+CoreDataClass.swift */,
+				C3E802B0275DCFC6007C5FA5 /* Card+CoreDataProperties.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E80293275DCA2A007C5FA5 /* DBManager.swift in Sources */,
+				C3E802B3275DCFC6007C5FA5 /* Card+CoreDataClass.swift in Sources */,
+				C3E802B2275DCFC6007C5FA5 /* Deck+CoreDataProperties.swift in Sources */,
 				C3E31E02275DC4A8002F395E /* Decks5e.xcdatamodeld in Sources */,
-				C3E31DFC275DC4A8002F395E /* ViewController.swift in Sources */,
+				C3E31DFC275DC4A8002F395E /* DeckMain.swift in Sources */,
 				C3E31DF8275DC4A8002F395E /* AppDelegate.swift in Sources */,
+				C3E802B4275DCFC6007C5FA5 /* Card+CoreDataProperties.swift in Sources */,
+				C3E802B1275DCFC6007C5FA5 /* Deck+CoreDataClass.swift in Sources */,
 				C3E31DFA275DC4A8002F395E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
