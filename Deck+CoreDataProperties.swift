@@ -2,7 +2,7 @@
 //  Deck+CoreDataProperties.swift
 //  Decks5e
 //
-//  Created by Guest on 2021-12-05.
+//  Created by Guest on 2021-12-06.
 //
 //
 
@@ -17,7 +17,7 @@ extension Deck {
     }
 
     @NSManaged public var deckName: String?
-    @NSManaged public var card: Card?
+    @NSManaged public var cards: Card?
 
 }
 
