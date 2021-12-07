@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C3E31DF8275DC4A8002F395E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E31DF7275DC4A8002F395E /* AppDelegate.swift */; };
-		C3E31DFA275DC4A8002F395E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E31DF9275DC4A8002F395E /* SceneDelegate.swift */; };
 		C3E31DFC275DC4A8002F395E /* DeckMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E31DFB275DC4A8002F395E /* DeckMain.swift */; };
 		C3E31DFF275DC4A8002F395E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E31DFD275DC4A8002F395E /* Main.storyboard */; };
 		C3E31E02275DC4A8002F395E /* Decks5e.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3E31E00275DC4A8002F395E /* Decks5e.xcdatamodeld */; };
@@ -20,12 +19,14 @@
 		C3E802CE275DEEBF007C5FA5 /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802CC275DEEBF007C5FA5 /* Card+CoreDataProperties.swift */; };
 		C3E802D1275DEF15007C5FA5 /* Deck+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802CF275DEF15007C5FA5 /* Deck+CoreDataClass.swift */; };
 		C3E802D2275DEF15007C5FA5 /* Deck+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802D0275DEF15007C5FA5 /* Deck+CoreDataProperties.swift */; };
+		C3E802D4275E976F007C5FA5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E802D3275E976F007C5FA5 /* Main_iPad.storyboard */; };
+		C3E802D7275E9A0F007C5FA5 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802D6275E9A0F007C5FA5 /* Storyboards.swift */; };
+		C3E802D9275EC404007C5FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E802D8275EC404007C5FA5 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3E31DF4275DC4A8002F395E /* Decks5e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decks5e.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E31DF7275DC4A8002F395E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3E31DF9275DC4A8002F395E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C3E31DFB275DC4A8002F395E /* DeckMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckMain.swift; sourceTree = "<group>"; };
 		C3E31DFE275DC4A8002F395E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3E31E01275DC4A8002F395E /* Decks5e.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Decks5e.xcdatamodel; sourceTree = "<group>"; };
@@ -38,6 +39,9 @@
 		C3E802CC275DEEBF007C5FA5 /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		C3E802CF275DEF15007C5FA5 /* Deck+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deck+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		C3E802D0275DEF15007C5FA5 /* Deck+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deck+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		C3E802D3275E976F007C5FA5 /* Main_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		C3E802D6275E9A0F007C5FA5 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		C3E802D8275EC404007C5FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Decks5e/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +75,12 @@
 			isa = PBXGroup;
 			children = (
 				C3E31DF7275DC4A8002F395E /* AppDelegate.swift */,
-				C3E31DF9275DC4A8002F395E /* SceneDelegate.swift */,
+				C3E802D5275E99FB007C5FA5 /* Helpers */,
 				C3E80294275DCC53007C5FA5 /* Models */,
+				C3E31E0E275DC4BD002F395E /* ViewControllers */,
 				C3E80291275DCA0B007C5FA5 /* Managers */,
 				C3E31E0F275DC4C5002F395E /* Storyboards */,
-				C3E31E0E275DC4BD002F395E /* ViewControllers */,
+				C3E802D8275EC404007C5FA5 /* SceneDelegate.swift */,
 				C3E31E03275DC4AA002F395E /* Assets.xcassets */,
 				C3E31E08275DC4AA002F395E /* Info.plist */,
 				C3E31E00275DC4A8002F395E /* Decks5e.xcdatamodeld */,
@@ -95,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				C3E31DFD275DC4A8002F395E /* Main.storyboard */,
+				C3E802D3275E976F007C5FA5 /* Main_iPad.storyboard */,
 				C3E31E05275DC4AA002F395E /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
@@ -118,6 +124,14 @@
 				C3E802CC275DEEBF007C5FA5 /* Card+CoreDataProperties.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		C3E802D5275E99FB007C5FA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C3E802D6275E9A0F007C5FA5 /* Storyboards.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E31E07275DC4AA002F395E /* LaunchScreen.storyboard in Resources */,
+				C3E802D4275E976F007C5FA5 /* Main_iPad.storyboard in Resources */,
 				C3E31E04275DC4AA002F395E /* Assets.xcassets in Resources */,
 				C3E31DFF275DC4A8002F395E /* Main.storyboard in Resources */,
 			);
@@ -195,12 +210,13 @@
 				C3E802D1275DEF15007C5FA5 /* Deck+CoreDataClass.swift in Sources */,
 				C3E802D2275DEF15007C5FA5 /* Deck+CoreDataProperties.swift in Sources */,
 				C3E802CE275DEEBF007C5FA5 /* Card+CoreDataProperties.swift in Sources */,
+				C3E802D7275E9A0F007C5FA5 /* Storyboards.swift in Sources */,
 				C3E80293275DCA2A007C5FA5 /* DBManager.swift in Sources */,
 				C3E31E02275DC4A8002F395E /* Decks5e.xcdatamodeld in Sources */,
+				C3E802D9275EC404007C5FA5 /* SceneDelegate.swift in Sources */,
 				C3E31DFC275DC4A8002F395E /* DeckMain.swift in Sources */,
 				C3E31DF8275DC4A8002F395E /* AppDelegate.swift in Sources */,
 				C3E802CA275DE426007C5FA5 /* Constants.swift in Sources */,
-				C3E31DFA275DC4A8002F395E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3ZFSMK6DCC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Decks5e/Info.plist;
@@ -378,7 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3ZFSMK6DCC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Decks5e/Info.plist;
